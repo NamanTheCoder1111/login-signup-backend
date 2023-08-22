@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: black;
+   display: flex;
+   flex-direction: column;
+   height: 40rem;
+   margin: 5rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+form{
+
+    display: flex;
+   flex-direction: column;
+   background-color:white;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+input{
+    margin: 2rem;
+   height:30px;
+    width: 300px;
+    border-radius: 5%;
+   padding: .2rem;
+}
+button{
+    color:white;
+    background-color:black;
+    width: 100px;
+    height: 25px;
+    border-style: none;
+}
+h1{
+    color: green;
+}
